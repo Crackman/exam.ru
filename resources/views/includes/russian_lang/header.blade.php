@@ -24,7 +24,10 @@
                             <li><a class="dropdown-item" href="{{ route('russian_lang.lexis') }}">Лексика</a></li>
                             <li><a class="dropdown-item" href="{{ route('russian_lang.phraseological') }}">Фразеологизмы</a></li>
                             <li><a class="dropdown-item" href="{{ route('russian_lang.homonyms') }}">Омонимы</a></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.phraseological') }}">Фразеологизмы</a></li>
+                            <li><a class="dropdown-item" href="{{ route('russian_lang.synonyms') }}">Синонимы</a></li>
+                            <li><a class="dropdown-item" href="{{ route('russian_lang.antonyms') }}">Антонимы</a></li>
+                            <li><a class="dropdown-item" href="{{ route('russian_lang.neologisms') }}">Неологизмы</a></li>
+                            <li><a class="dropdown-item" href="{{ route('russian_lang.synonyms') }}">Синонимы</a></li>
                             <li><hr class="dropdown-divider"></li>
                             <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
