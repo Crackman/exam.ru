@@ -22,5 +22,9 @@ Route::view('/russian_lang/homonyms', 'russian_lang.homonyms')->name('russian_la
 Route::view('/russian_lang/synonyms', 'russian_lang.synonyms')->name('russian_lang.synonyms');
 Route::view('/russian_lang/antonyms', 'russian_lang.antonyms')->name('russian_lang.antonyms');
 Route::view('/russian_lang/neologisms', 'russian_lang.neologisms')->name('russian_lang.neologisms');
+Route::view('/russian_lang/dialect_words', 'russian_lang.dialect_words')->name('russian_lang.dialect_words');
+Route::view('/russian_lang/phonetics', 'russian_lang.phonetics')->name('russian_lang.phonetics');
+
+Route::view('/russian_lang/spelling', 'russian_lang.spelling')->name('russian_lang.spelling');
 
 
