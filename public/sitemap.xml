@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url><loc>https://mobibus.ru/</loc><changefreq>daily</changefreq><priority>1.00</priority></url>
   <url><loc>https://mobibus.ru/russian_lang</loc><changefreq>daily</changefreq><priority>0.85</priority></url>
   <url><loc>https://mobibus.ru/russian_lang/lexis</loc><changefreq>daily</changefreq><priority>0.69</priority></url>
