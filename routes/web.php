@@ -27,7 +27,5 @@ Route::view('/russian_lang/phonetics', 'russian_lang.phonetics')->name('russian_
 
 Route::view('/russian_lang/spelling', 'russian_lang.spelling')->name('russian_lang.spelling');
 Route::view('/russian_lang/spelling', 'russian_lang.spelling')->name('russian_lang.spelling');
-Route::view('/sitemap.xml', 'sitemap')->name('sitemap');
-
 
 
