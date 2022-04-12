@@ -34,6 +34,7 @@
 
                             <li><h6 class="dropdown-header">ФОНЕТИКА И ГРАФИКА</h6></li>
                             <li><a class="dropdown-item" href="{{ route('russian_lang.phonetics') }}">Фонетика</a></li>
+                            <li><hr class="dropdown-divider"></li>
 
                             <li><h6 class="dropdown-header">ОРФОГРАФИЯ</h6></li>
                             <li><a class="dropdown-item" href="{{ route('russian_lang.spelling') }}">Орфография</a></li>
