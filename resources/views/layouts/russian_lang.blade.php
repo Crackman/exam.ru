@@ -85,16 +85,16 @@
                         Products
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">Angular</a>
+                        <a href="#" class="text-reset">Angular</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">React</a>
+                        <a href="#" class="text-reset">React</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Vue</a>
+                        <a href="#" class="text-reset">Vue</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Laravel</a>
+                        <a href="#" class="text-reset">Laravel</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -106,16 +106,16 @@
                         Useful links
                     </h6>
                     <p>
-                        <a href="#!" class="text-reset">Pricing</a>
+                        <a href="#" class="text-reset">Pricing</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Settings</a>
+                        <a href="#" class="text-reset">Settings</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Orders</a>
+                        <a href="#" class="text-reset">Orders</a>
                     </p>
                     <p>
-                        <a href="#!" class="text-reset">Help</a>
+                        <a href="#" class="text-reset">Help</a>
                     </p>
                 </div>
                 <!-- Grid column -->
@@ -152,7 +152,7 @@
 
 
 
-<script src="{{ asset('js/app.js') }}"></script>
+<script src="{{ asset('js/app.js') }} " async></script>
 
 
 </body>

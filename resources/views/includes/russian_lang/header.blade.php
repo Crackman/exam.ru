@@ -1,15 +1,17 @@
 <header>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg  navbar-light bg-light">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Русский язык</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="nav-link"   href="{{ route('russian_lang.index') }}">
+                <i class="fa-solid fa-left-long fa-2x "></i>
+            </a>
+            <a class="navbar-brand" href="{{ route('main.index') }}">На главную</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="{{ route('main.index') }}">На главную</a>
-                    </li>
+                <ul class="navbar-nav me-auto my-2 my-lg-0" style="--bs-scroll-height: 100px;">
+
                     <li class="nav-item">
                         <a class="nav-link" href="#">Математика</a>
                     </li>
@@ -39,7 +41,6 @@
                             <li><h6 class="dropdown-header">ОРФОГРАФИЯ</h6></li>
                             <li><a class="dropdown-item" href="{{ route('russian_lang.spelling') }}">Орфография</a></li>
 
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
                         </ul>
                     </li>
                 </ul>

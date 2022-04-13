@@ -21543,3 +21543,15 @@ readers do not read off random characters that represent icons */
 body {
   font-size: 1.2em;
 }
+
+.navrus .nav-link {
+  margin: -10px;
+}
+
+.navbar .icon-back {
+  margin-top: -5px;
+}
+
+.fa-left-long {
+  color: green;
+}
