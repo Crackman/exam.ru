@@ -1,10 +1,10 @@
 <header>
     <nav class="navbar navbar-rusindex navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
-            <a class="nav-link d-none"   href="{{ route('russian_lang.index') }}">
+            <a class="nav-link" style="visibility: hidden" href="{{ route('russian_lang.index') }}">
                 <i class="fa-solid fa-left-long fa-2x "></i>
             </a>
-            <a class="navbar-brand" href="#">Подготовка к ЕГЭ</a>
+            <a class="navbar-brand" href="#">MOBIBUS</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>

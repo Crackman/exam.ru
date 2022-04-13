@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="description" content="русский язык, подготовка к ЕГЭ, фразеологизмы, омонимы, синонимы">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Русский язык</title>
+    <title>Mobibus - Русский язык</title>
     <link rel="icon" href="{{ asset('favicon.ico') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 
