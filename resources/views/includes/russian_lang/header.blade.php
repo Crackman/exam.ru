@@ -19,30 +19,6 @@
                         <a class="nav-link" href="#">Информатика</a>
                     </li>
 
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Темы
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
-                            <li><h6 class="dropdown-header">ЛЕКСИКА И ФРАЗЕОЛОГИЗМЫ</h6></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.lexis') }}">Лексика</a></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.phraseological') }}">Фразеологизмы</a></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.homonyms') }}">Омонимы</a></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.synonyms') }}">Синонимы</a></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.antonyms') }}">Антонимы</a></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.neologisms') }}">Неологизмы</a></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.dialect_words') }}">Диалекные слова</a></li>
-                            <li><hr class="dropdown-divider"></li>
-
-                            <li><h6 class="dropdown-header">ФОНЕТИКА И ГРАФИКА</h6></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.phonetics') }}">Фонетика</a></li>
-                            <li><hr class="dropdown-divider"></li>
-
-                            <li><h6 class="dropdown-header">ОРФОГРАФИЯ</h6></li>
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.spelling') }}">Орфография</a></li>
-
-                        </ul>
-                    </li>
                 </ul>
 
                 <form class="d-flex">
