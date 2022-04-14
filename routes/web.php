@@ -28,5 +28,6 @@ Route::view('/russian_lang/phonetics/phonetics', 'russian_lang.phonetics.phoneti
 
 Route::view('/russian_lang/spelling/spelling', 'russian_lang.spelling.spelling')->name('russian_lang.spelling');
 Route::view('/russian_lang/spelling/what_spelling', 'russian_lang.spelling.what_spelling')->name('russian_lang.what_spelling');
+Route::view('/russian_lang/spelling/bezudar_glas_v_coren', 'russian_lang.spelling.bezudar_glas_v_coren')->name('russian_lang.bezudar_glas_v_coren');
 
 

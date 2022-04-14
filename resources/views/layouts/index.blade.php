@@ -18,19 +18,6 @@
         gtag('config', 'G-FFJP3Y3FSN');
     </script>
 
-    <style>
-        body {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-        }
-
-        footer {
-            margin-top: auto;
-        }
-
-    </style>
-
 </head>
 <body>
 
