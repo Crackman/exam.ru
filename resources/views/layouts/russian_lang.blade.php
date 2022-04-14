@@ -23,7 +23,7 @@
 @include('includes.russian_lang.header')
 @yield('content')
 
-<footer class="bg-light text-center text-white">
+<footer class="bg-light text-center text-white fixed-bottom">
     <!-- Grid container -->
     <div class="container p-4 pb-0">
         <!-- Section: Social media -->
