@@ -14,21 +14,9 @@
                                 <a class="nav-link" href="#">Чтo тaкoe opфoгpaфия?</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">3aчeм нyжнa opфoгpaфия pyccкoгo языкa?</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Отключенная</a>
+                                <a class="nav-link" href="#">Зачем нужна орфография русского языка?</a>
                             </li>
                         </ul>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ссылка</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Ссылка</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Отключенная</a>
                     </li>
                 </ul>
 

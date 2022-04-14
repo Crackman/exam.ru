@@ -8,8 +8,8 @@
 
                 <ul class="nav flex-column navrus">
                     <li class="nav-item">
-                        <a class="nav-link mb-2" aria-current="page" href="#">Лексика и фразеологизмы</a>
-                        <ul class="nav flex-column mx-5 mb-2">
+                        <a class="nav-link " aria-current="page" href="#">Лексика и фразеологизмы</a>
+                        <ul class="nav flex-column mx-5 mb-1">
                             <li class="nav-item"><a class="nav-link" href="{{ route('russian_lang.lexis') }}">Лексика</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ route('russian_lang.phraseological') }}">Фразеологизмы</a></li>
                             <li class="nav-item"><a class="nav-link" href="{{ route('russian_lang.homonyms') }}">Омонимы</a></li>
@@ -20,9 +20,15 @@
                         </ul>
 
                         <a class="nav-link active" aria-current="page" href="{{ route('russian_lang.phonetics') }}">Фонетика</a>
+                        <ul class="nav flex-column mx-5 mb-1">
+                            <li class="nav-item">
+                                <a href="#"></a>
+                            </li>
+                        </ul>
+
                         <a class="nav-link active" aria-current="page" href="{{ route('russian_lang.phonetics') }}">Орфография</a>
-                        <ul class="nav flex-column mx-5">
-                            <li><a class="dropdown-item" href="{{ route('russian_lang.spelling') }}">Орфография</a></li>
+                        <ul class="nav flex-column mx-5 mb-1">
+                            <li class="nav-item"><a class="nav-link" href="{{ route('russian_lang.spelling') }}">Орфография</a></li>
                         </ul>
                     </li>
 
