@@ -12,19 +12,30 @@
 @import "~@fortawesome/fontawesome-free/scss/brands";
 @import "~@fortawesome/fontawesome-free/scss/solid";
 
+
 body
 {
   font-size: 1.2em;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+footer
+{
+  margin-top: auto;
 }
 
 .navrus .nav-link
 {
   margin: -10px;
 }
+
 .navbar .icon-back
 {
   margin-top: -5px;
 }
+
 .fa-left-long
 {
   color: green;

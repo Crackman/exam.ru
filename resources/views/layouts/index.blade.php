@@ -17,6 +17,20 @@
 
         gtag('config', 'G-FFJP3Y3FSN');
     </script>
+
+    <style>
+        body {
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+
+        footer {
+            margin-top: auto;
+        }
+
+    </style>
+
 </head>
 <body>
 
@@ -25,7 +39,7 @@
 
 
 
-    <footer class="bg-light text-center text-white fixed-bottom">
+    <footer class="bg-light text-center text-white">
         <!-- Grid container -->
         <div class="container p-4 pb-0">
             <!-- Section: Social media -->
