@@ -4,7 +4,7 @@
     <div class="container">
         <div class="row">
             <div class="col">
-                <h1>Орфография (правила написания слов) русского языка</h1>
+                <h1>Офография (правила написания слов) русского языка</h1>
 
                 <ul class="nav flex-column">
                     <li class="nav-item">
