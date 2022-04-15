@@ -1,5 +1,5 @@
 <header>
-    <nav class="navbar navbar-rusindex navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid">
             <a class="nav-link" style="visibility: hidden" href="{{ route('russian_lang.index') }}">
                 <i class="fa-solid fa-left-long fa-2x "></i>

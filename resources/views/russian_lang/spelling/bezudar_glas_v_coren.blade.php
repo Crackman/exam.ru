@@ -3,7 +3,6 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col">
                 <h1>Проверяемые безударные гласные в корне</h1>
                 <p>
 
@@ -31,11 +30,12 @@
                 <h2>Чередующиеся гласные в корне</h2>
 
                 <table class="table table-bordered border-dark">
+
                     <thead>
                     <tr>
-                        <th class="text-center">КОРЕНЬ</th>
-                        <th class="text-center">ОТ ЧЕГО ЗАВИСИТ НАПИСАНИЕ</th>
-                        <th class="text-center">ПРИМЕРЫ</th>
+                        <th scope="col" class="text-center">КОРЕНЬ</th>
+                        <th scope="col" class="text-center">ОТ ЧЕГО ЗАВИСИТ НАПИСАНИЕ</th>
+                        <th scope="col" class="text-center">ПРИМЕРЫ</th>
                     </tr>
                     </thead>
 
@@ -139,9 +139,9 @@
                         <td>
                             9. Макать, обмакнуть, обмакнуть, вымокнуть
                             <br>
-                            10.Сравниться(силой), выровнять(грядку)
+                            10.Сравниться (силой), выровнять (грядку)
                             <br>
-                            <strong class="text-danger">Исключения</strong>: равнина, уровень, ровесник, равнение(налево)
+                            <strong class="text-danger">Исключения</strong>: равнина, уровень, ровесник, равнение (налево)
                         </td>
                     </tr>
 
@@ -207,8 +207,6 @@
 
                     </tbody>
                 </table>
-
-            </div>
         </div>
     </div>
 @endsection
