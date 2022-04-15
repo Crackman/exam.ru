@@ -3,6 +3,8 @@
 @section('content')
     <div class="container">
         <div class="row">
+            <div class="col-12">
+
                 <h1>Проверяемые безударные гласные в корне</h1>
                 <p>
 
@@ -29,184 +31,189 @@
 
                 <h2>Чередующиеся гласные в корне</h2>
 
-                <table class="table table-bordered border-dark">
+                <div class="table-responsive-lg">
 
-                    <thead>
-                    <tr>
-                        <th scope="col" class="text-center">КОРЕНЬ</th>
-                        <th scope="col" class="text-center">ОТ ЧЕГО ЗАВИСИТ НАПИСАНИЕ</th>
-                        <th scope="col" class="text-center">ПРИМЕРЫ</th>
-                    </tr>
-                    </thead>
+                    <table class="table table-bordered border-dark">
 
-                    <tbody>
+                        <thead>
+                        <tr>
+                            <th scope="col" class="text-center">КОРЕНЬ</th>
+                            <th scope="col" class="text-center">ОТ ЧЕГО ЗАВИСИТ НАПИСАНИЕ</th>
+                            <th scope="col" class="text-center">ПРИМЕРЫ</th>
+                        </tr>
+                        </thead>
 
-                    <tr>
-                        <td>
-                            1. -раст- (-ращ-) // -рос
-                            <br>
-                            2. -лаг-//-лож-
-                            <br>
-                            2. -скак-//-скоч-
-                        </td>
-                        <td>
-                            От последущей буквы в корне:
-                            <br>
-                            1. перед <strong class="text-success">ст(щ)</strong> пищется <strong class="text-success">а</strong>,
-                            <br>
-                            перед <strong class="text-success">с - о</strong>
-                            <br>
-                            2. перед <strong class="text-success">г</strong> пишется <strong class="text-success">а</strong>,
-                            <br>
-                            перед <strong class="text-success">ж - о</strong>
-                            <br>
-                            3. перед <strong class="text-success">к</strong> пишется <strong class="text-success">а</strong>,
-                            <br>
-                            перед <strong class="text-success">ч - о</strong>
-                        </td>
-                        <td>
-                            1. Растение, выращивать, выросли
-                            <br>
-                            <strong class="text-danger"></strong>
-                            <strong class="text-danger"></strong>Исключения: Ростов, Ростислав, росток,  ростовщик, отрасль, подростковый, вырост
-                            2. Предполагать, приложить
-                            <br>
-                            <strong class="text-danger">Исключение</strong>: полог
-                            <br>
-                            3. Скакун, вскочил
-                            <br>
-                            <strong class="text-danger">Исключения</strong>: формы спряжения глагола скакать (скачу, скачешь, скачет,скачут и т.д) скачок
-                        </td>
-                    </tr>
+                        <tbody>
 
-                    <tr>
-                        <td>
-                            4. -клан-//--клон-
-                            <br>
-                            5. -гар-//-гор-
-                            <br>
-                            6. -твар-//-твор-
-                        </td>
-                        <td>
-                            От ударения- в безударном положении пишется буква <strong class="text-success">о</strong>
-                        </td>
-                        <td>
-                            4. Склонить - кланятся
-                            <br>
-                            5. Загар - загорелый, прогар - прогорелый
-                            <br>
-                            <strong class="text-danger">Исключения</strong>: выгарки, пригарать
-                            <br>
-                            6. Творчество, творить - тварь
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>
+                                1. -раст- (-ращ-) // -рос
+                                <br>
+                                2. -лаг-//-лож-
+                                <br>
+                                2. -скак-//-скоч-
+                            </td>
+                            <td>
+                                От последущей буквы в корне:
+                                <br>
+                                1. перед <strong class="text-success">ст(щ)</strong> пищется <strong class="text-success">а</strong>,
+                                <br>
+                                перед <strong class="text-success">с - о</strong>
+                                <br>
+                                2. перед <strong class="text-success">г</strong> пишется <strong class="text-success">а</strong>,
+                                <br>
+                                перед <strong class="text-success">ж - о</strong>
+                                <br>
+                                3. перед <strong class="text-success">к</strong> пишется <strong class="text-success">а</strong>,
+                                <br>
+                                перед <strong class="text-success">ч - о</strong>
+                            </td>
+                            <td>
+                                1. Растение, выращивать, выросли
+                                <br>
+                                <strong class="text-danger"></strong>
+                                <strong class="text-danger"></strong>Исключения: Ростов, Ростислав, росток,  ростовщик, отрасль, подростковый, вырост
+                                2. Предполагать, приложить
+                                <br>
+                                <strong class="text-danger">Исключение</strong>: полог
+                                <br>
+                                3. Скакун, вскочил
+                                <br>
+                                <strong class="text-danger">Исключения</strong>: формы спряжения глагола скакать (скачу, скачешь, скачет,скачут и т.д) скачок
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>
-                            7. -плав-//-плов-
-                            <br>
-                            8. -зар-//-зор-
-                        </td>
-                        <td>
-                            От ударения - в безударном положении пишется буква <strong class="text-success">а</strong>
-                        </td>
-                        <td>
-                            7. Плавучий, поплавок
-                            <br>
-                            <strong class="text-danger">Исключения</strong>: пловчиха, пловец, плывуны, пловцы
-                            <br>
-                            8. заря,зарянка - зорька, зори
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>
+                                4. -клан-//--клон-
+                                <br>
+                                5. -гар-//-гор-
+                                <br>
+                                6. -твар-//-твор-
+                            </td>
+                            <td>
+                                От ударения- в безударном положении пишется буква <strong class="text-success">о</strong>
+                            </td>
+                            <td>
+                                4. Склонить - кланятся
+                                <br>
+                                5. Загар - загорелый, прогар - прогорелый
+                                <br>
+                                <strong class="text-danger">Исключения</strong>: выгарки, пригарать
+                                <br>
+                                6. Творчество, творить - тварь
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>
-                            9. -мак-//-мок-
-                            <br>
-                            10. -равн-//-ровн-
-                        </td>
-                        <td>
-                            Имеет значение:
-                            <br>
-                            9."погружать в жидкость" - <strong class="text-success"> мак</strong>;
-                            <br>
-                            "пропускать жидкость" - <strong class="text-success">мок</strong>;
-                            <br>
-                            10. "делать(-ся) ровным, гладким" - <strong class="text-success">ровн</strong>;
-                            <br>
-                            "быть/делать равным кому-то, чему-то" - <strong class="text-success">равн</strong>
-                        </td>
-                        <td>
-                            9. Макать, обмакнуть, обмакнуть, вымокнуть
-                            <br>
-                            10.Сравниться (силой), выровнять (грядку)
-                            <br>
-                            <strong class="text-danger">Исключения</strong>: равнина, уровень, ровесник, равнение (налево)
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>
+                                7. -плав-//-плов-
+                                <br>
+                                8. -зар-//-зор-
+                            </td>
+                            <td>
+                                От ударения - в безударном положении пишется буква <strong class="text-success">а</strong>
+                            </td>
+                            <td>
+                                7. Плавучий, поплавок
+                                <br>
+                                <strong class="text-danger">Исключения</strong>: пловчиха, пловец, плывуны, пловцы
+                                <br>
+                                8. заря,зарянка - зорька, зори
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>
-                            11. -блест-//-блист-
-                            <br>
-                            12. -бер-//-бир-
-                            <br>
-                            13. -стел-//-стил-
-                            <br>
-                            14. -дер-//-дир-
-                            <br>
-                            15. -пер-//-пир-
-                            <br>
-                            16. -тер-//-тир-
-                            <br>
-                            17. -мер-//-мир-
-                            <br>
-                            18. -жег-//-жиг-
-                            <br>
-                            19. -чет-//-чит-
-                            <br>
-                            20. -кас-//-кос-
-                        </td>
-                        <td>
-                            От последущего суффикса <strong class="text-success">-а-</strong>:
-                            <br>
-                            11-19. при наличии суффикса пишется буква <strong class="text-success">и</strong>, если его нет - буква <strong class="text-success">е</strong>
-                            <br>
-                            20. если есть суффикс а, то пишется буква а
-                        </td>
-                        <td>
-                            11. блестящий - блистать
-                            <br>
-                            12. беру - подбирал, берёза
-                            <br>
-                            13. стелил - расстилать
-                            <br>
-                            14. дерево, деревня, раздиратель
-                            <br>
-                            15. первак, перила, запирать
-                            <br>
-                            16. термит, стирать - стереть
-                            <br>
-                            17. замер - замирал, помер - помирал
-                            <br>
-                            18. сжигать, выжег
-                            <br>
-                            19. вычет, вычитал
-                            <br>
-                            <strong class="text-danger">Исключения</strong>: сочетать, сочетание
-                            <br>
-                            20. коснуться - косался
-                        </td>
-                    </tr>
+                        <tr>
+                            <td>
+                                9. -мак-//-мок-
+                                <br>
+                                10. -равн-//-ровн-
+                            </td>
+                            <td>
+                                Имеет значение:
+                                <br>
+                                9."погружать в жидкость" - <strong class="text-success"> мак</strong>;
+                                <br>
+                                "пропускать жидкость" - <strong class="text-success">мок</strong>;
+                                <br>
+                                10. "делать(-ся) ровным, гладким" - <strong class="text-success">ровн</strong>;
+                                <br>
+                                "быть/делать равным кому-то, чему-то" - <strong class="text-success">равн</strong>
+                            </td>
+                            <td>
+                                9. Макать, обмакнуть, обмакнуть, вымокнуть
+                                <br>
+                                10.Сравниться (силой), выровнять (грядку)
+                                <br>
+                                <strong class="text-danger">Исключения</strong>: равнина, уровень, ровесник, равнение (налево)
+                            </td>
+                        </tr>
 
-                    <tr>
-                        <td>21. корни с чередованием а(я)//им, а(я)//ин</td>
-                        <td> без ударение пишутся <strong class="text-success">им и ин</strong>, если есть суффикс <strong class="text-success">-а-</strong></td>
-                        <td>21. поднять - поднимать, начать - начинать</td>
-                    </tr>
+                        <tr>
+                            <td>
+                                11. -блест-//-блист-
+                                <br>
+                                12. -бер-//-бир-
+                                <br>
+                                13. -стел-//-стил-
+                                <br>
+                                14. -дер-//-дир-
+                                <br>
+                                15. -пер-//-пир-
+                                <br>
+                                16. -тер-//-тир-
+                                <br>
+                                17. -мер-//-мир-
+                                <br>
+                                18. -жег-//-жиг-
+                                <br>
+                                19. -чет-//-чит-
+                                <br>
+                                20. -кас-//-кос-
+                            </td>
+                            <td>
+                                От последущего суффикса <strong class="text-success">-а-</strong>:
+                                <br>
+                                11-19. при наличии суффикса пишется буква <strong class="text-success">и</strong>, если его нет - буква <strong class="text-success">е</strong>
+                                <br>
+                                20. если есть суффикс а, то пишется буква а
+                            </td>
+                            <td>
+                                11. блестящий - блистать
+                                <br>
+                                12. беру - подбирал, берёза
+                                <br>
+                                13. стелил - расстилать
+                                <br>
+                                14. дерево, деревня, раздиратель
+                                <br>
+                                15. первак, перила, запирать
+                                <br>
+                                16. термит, стирать - стереть
+                                <br>
+                                17. замер - замирал, помер - помирал
+                                <br>
+                                18. сжигать, выжег
+                                <br>
+                                19. вычет, вычитал
+                                <br>
+                                <strong class="text-danger">Исключения</strong>: сочетать, сочетание
+                                <br>
+                                20. коснуться - косался
+                            </td>
+                        </tr>
 
-                    </tbody>
-                </table>
+                        <tr>
+                            <td>21. корни с чередованием а(я)//им, а(я)//ин</td>
+                            <td> без ударение пишутся <strong class="text-success">им и ин</strong>, если есть суффикс <strong class="text-success">-а-</strong></td>
+                            <td>21. поднять - поднимать, начать - начинать</td>
+                        </tr>
+
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
         </div>
     </div>
 @endsection
