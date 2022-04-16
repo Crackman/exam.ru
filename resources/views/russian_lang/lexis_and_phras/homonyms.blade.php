@@ -1,5 +1,8 @@
 @extends('layouts.russian_lang')
 
+@section('description')Расскажем что же такое омонимы и какие они бывают.@endsection
+@section('title')Что такое омонимы | mobibus @endsection
+
 @section('content')
     <div class="container">
         <div class="row">

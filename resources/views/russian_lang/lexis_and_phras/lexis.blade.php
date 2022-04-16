@@ -1,5 +1,8 @@
 @extends('layouts.russian_lang')
 
+@section('description')Расскажем что же такое лексика и какая у неё классификация. Что такое прямое и переносное значение.@endsection
+@section('title')Что такое лексика | mobibus @endsection
+
 @section('content')
     <div class="container">
         <div class="row">

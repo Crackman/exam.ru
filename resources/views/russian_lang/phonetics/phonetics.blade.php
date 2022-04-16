@@ -1,5 +1,8 @@
 @extends('layouts.russian_lang')
 
+@section('description')Узнайте что такое фонетика, какие фонетический законы бывают.@endsection
+@section('title')Что такое фонетика | mobibus @endsection
+
 @section('content')
     <div class="container">
         <div class="row">

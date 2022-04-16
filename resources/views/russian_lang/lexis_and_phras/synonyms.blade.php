@@ -1,5 +1,8 @@
 @extends('layouts.russian_lang')
 
+@section('description')Узнайте что такое синонимы, на какие виды их делют. Узнайте какие у фразеологизмов признаки.@endsection
+@section('title')Что такое синонимы | mobibus @endsection
+
 @section('content')
     <div class="container">
         <div class="row">

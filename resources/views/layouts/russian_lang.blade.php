@@ -2,9 +2,10 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="description" content="русский язык, подготовка к ЕГЭ, фразеологизмы, омонимы, синонимы">
+    <meta name="description" content="@yield('description')">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mobibus - Русский язык</title>
+    <meta name=”Author” content="https://vk.com/id339593998">
+    <title>@yield('title')</title>
     <link rel="icon" href="{{ asset('favicon.ico') }}">
     <link rel="stylesheet" type="text/css" href="{{ asset('css/app.css') }}">
 

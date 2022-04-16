@@ -1,5 +1,6 @@
 @extends('layouts.russian_lang')
-
+@section('description')Расскажем что такое антонимы. Какие они бывают и их лексическое значение.@endsection
+@section('title')Что такое антонимы | mobibus @endsection
 @section('content')
     <div class="container">
         <div class="row">

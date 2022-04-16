@@ -1,5 +1,8 @@
 @extends('layouts.russian_lang')
 
+@section('description')Расскажем что же такое неологизмы, историзмы и архаизмы. Приведём из примеры. Расскажем каких видов они бывают.@endsection
+@section('title')Что такое неологизмы | mobibus @endsection
+
 @section('content')
     <div class="container">
         <div class="row">

@@ -1,5 +1,8 @@
 @extends('layouts.russian_lang')
 
+@section('description')Узнайте что такое фразеологизмы. Каких Видов фразеологизмы бывают. Узнайте какие у фразеологизмов признаки.@endsection
+@section('title')Что такое фразеолонизмы | mobibus @endsection
+
 @section('content')
     <div class="container">
         <div class="row">

@@ -1,4 +1,6 @@
 @extends('layouts.russian_lang')
+@section('description')Расскажем что же такое диалектные слова. С примерами. @endsection
+@section('title')Что такое диалектные слова | mobibus @endsection
 
 @section('content')
     <div class="container">

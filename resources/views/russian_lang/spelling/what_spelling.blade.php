@@ -1,5 +1,8 @@
 @extends('layouts.russian_lang')
 
+@section('description') Узнайте определение термина - орфография.@endsection
+@section('title')Офография - что же это такое? | mobibus @endsection
+
 @section('content')
     <div class="container">
         <div class="row">
