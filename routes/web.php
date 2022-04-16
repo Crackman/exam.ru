@@ -26,7 +26,7 @@ Route::view('/russian_lang/lexis_and_phras/dialect_words', 'russian_lang.lexis_a
 
 Route::view('/russian_lang/phonetics/phonetics', 'russian_lang.phonetics.phonetics')->name('russian_lang.phonetics');
 
-Route::view('/russian_lang/spelling/spelling', 'russian_lang.spelling.spelling')->name('russian_lang.spelling');
+Route::view('/russian_lang/spelling/', 'russian_lang.spelling.spelling')->name('russian_lang.spelling');
 Route::view('/russian_lang/spelling/what_spelling', 'russian_lang.spelling.what_spelling')->name('russian_lang.what_spelling');
 Route::view('/russian_lang/spelling/bezudar_glas_v_coren', 'russian_lang.spelling.bezudar_glas_v_coren')->name('russian_lang.bezudar_glas_v_coren');
 Route::view('/russian_lang/spelling/o_e_posle_shipyashih', 'russian_lang.spelling.o_e_posle_shipyashih')->name('russian_lang.o_e_posle_shipyashih');

@@ -49,22 +49,22 @@
             ><i class="fab fa-instagram"></i
                 ></a>
 
-            <!-- vk -->
-            <a
-              class="btn btn-primary btn-floating m-1"
-              style="background-color: #0082ca;"
-              href="https://vk.com/id339593998"
-              role="button"
-            ><i class="fa-brands fa-vk"></i>
-            </a>
-            <!-- Github -->
-            <a
-              class="btn btn-primary btn-floating m-1"
-              style="background-color: #333333;"
-              href="https://github.com/Crackman"
-              role="button"
-            ><i class="fab fa-github"></i
-                ></a>
+{{--            <!-- vk -->--}}
+{{--            <a--}}
+{{--              class="btn btn-primary btn-floating m-1"--}}
+{{--              style="background-color: #0082ca;"--}}
+{{--              href="https://vk.com/id339593998"--}}
+{{--              role="button"--}}
+{{--            ><i class="fa-brands fa-vk"></i>--}}
+{{--            </a>--}}
+{{--            <!-- Github -->--}}
+{{--            <a--}}
+{{--              class="btn btn-primary btn-floating m-1"--}}
+{{--              style="background-color: #333333;"--}}
+{{--              href="https://github.com/Crackman"--}}
+{{--              role="button"--}}
+{{--            ><i class="fab fa-github"></i--}}
+{{--                ></a>--}}
         </section>
         <!-- Section: Social media -->
     </div>
