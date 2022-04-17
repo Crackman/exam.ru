@@ -178,7 +178,7 @@
                             <br>
                             11-19. при наличии суффикса пишется буква <strong style="color: forestgreen">и</strong>, если его нет - буква <strong style="color: forestgreen">е</strong>
                             <br>
-                            20. если есть суффикс а, то пишется буква а
+                            20. если есть суффикс <strong style="color: forestgreen">а</strong>, то пишется буква <strong style="color: forestgreen">а</strong>
                         </td>
                         <td>
                             11. блестящий - блистать
@@ -201,7 +201,7 @@
                             <br>
                             <strong class="text-danger">Исключения</strong>: сочетать, сочетание
                             <br>
-                            20. коснуться - косался
+                            20. коснуться - касался
                         </td>
                     </tr>
 
