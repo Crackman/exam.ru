@@ -6,15 +6,13 @@
 @section('content')
     <div class="container">
         <div class="row">
-            <div class="col">
-                <h1>Офография (правила написания слов) русского языка</h1>
+            <h1 class="text-center">Офография (правила написания слов) русского языка</h1>
 
+            <div class="col text-center">
                 <ul class="nav flex-column navrus">
-
                     <li class="nav-item">
 
-                        <a class="nav-link mb-1" aria-current="page" href="{{ route('russian_lang.phonetics') }}">Орфография</a>
-                        <ul class="nav flex-column mx-5 mb-2">
+                        <ul class="nav flex-column">
                             <li class="nav-item">
                                 <a class="nav-link" href="{{ route('russian_lang.what_spelling') }}">Чтo такое орфография?</a>
                             </li>
@@ -32,15 +30,10 @@
                                 </a>
                             </li>
                         </ul>
-
-                    </li>
-
-                    <li class="nav-item">
-                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Отключенная</a>
                     </li>
                 </ul>
-
             </div>
+
         </div>
     </div>
 @endsection

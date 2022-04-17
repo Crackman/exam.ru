@@ -36,7 +36,7 @@
                 <a
                   class="btn btn-primary btn-floating m-1"
                   style="background-color: #dd4b39;"
-                  href="#!"
+                  href="mailto:mobibus.ru@gmail.com"
                   role="button"
                 ><i class="fab fa-google"></i
                     ></a>
